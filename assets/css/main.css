@@ -549,7 +549,7 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 5px;
   vertical-align: middle;
   -webkit-transition: all 0.3s ease-in-out;
@@ -563,7 +563,7 @@ hr {
   font-weight: 600;
   padding: 8px 10px;
   line-height: 40px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   cursor: pointer;
   background: transparent;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2551,3 +2551,11 @@ text-align: center;
   flex: 0 0 33.333%;
   max-width: 80.333%
 }
+
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
