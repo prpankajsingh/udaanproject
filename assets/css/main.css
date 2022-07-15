@@ -239,7 +239,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #3d60f4;
+  background: #ef5c16;
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -559,7 +559,8 @@ hr {
 
 .navbar-expand-md .navbar-nav .nav-link {
   font-family: 'Titillium Web', sans-serif;
-  color: #7edb18;
+  font-size: 17px;
+  color: #a0d468;
   font-weight: 600;
   padding: 8px 10px;
   line-height: 40px;
@@ -574,7 +575,7 @@ hr {
 .navbar-expand-md .navbar-nav li a:hover,
 .navbar-expand-md .navbar-nav li .active > a,
 .navbar-expand-md .navbar-nav li a:focus {
-  color: #3d60f4;
+  color: #cf8525;
   outline: none;
 }
 
@@ -587,7 +588,7 @@ hr {
 
 .navbar-expand-md .navbar-nav .nav-link:focus,
 .navbar-expand-md .navbar-nav .nav-link:hover {
-  color: #3d60f4 !important;
+  color: #ef5c16 !important;
 }
 
 .navbar {
@@ -711,7 +712,7 @@ hr {
 }
 
 #hero-area .contents {
-  padding: 80px 0px 50px;
+  padding: 100px 0px 10px;
 }
 
 #hero-area .contents .head-title {
