@@ -537,7 +537,7 @@ hr {
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #3d60f4 !important;
+  color: #ef5c16 !important;
 }
 
 .indigo {
@@ -582,7 +582,7 @@ hr {
 .navbar-expand-md .navbar-nav .nav-link.active,
 .navbar-expand-md .navbar-nav .nav-link.open,
 .navbar-expand-md .navbar-nav .open > .nav-link {
-  color: #3d60f4 !important;
+  color: #ef5c16 !important;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:focus,
