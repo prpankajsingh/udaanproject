@@ -1999,13 +1999,13 @@ textarea {
  h4, h6 {
   color: #5385c1;
   font-weight: 300;
-  line-height: 2.5;
+  line-height: 1.5;
   margin: 0 0 1em 0;
 }
 h5{
   color: #1c2127;
   font-weight: 300;
-  line-height: 0.5;
+  line-height: 1;
   margin: 0 0 1em 0;
   font-size: 42.58;
 }
@@ -2019,7 +2019,7 @@ h1 {
   font-size: 70px;
   color: #d3e2ee;
   font-weight: 300;
-  line-height: 0.5;
+  line-height: 1;
   margin: 0 0 1em 0;
 }
 
@@ -2107,8 +2107,10 @@ section.wrapper, article.wrapper {
 
   .inner {
 		max-width: 75em;
-		margin: 0 auto;
+		padding-left:10px;
+    padding-right:10px;
     text-align: justify;
+    margin: 0 auto;
 	}
 
 
