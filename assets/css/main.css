@@ -2351,7 +2351,7 @@ input[type=text], select, textarea {
 
 @media (min-width: 1200px){     
 .three { 
-  flex-basis: calc(25% - 30px);
+  flex-basis: calc(33% - 30px);
 } 
 }     
 
@@ -2404,7 +2404,7 @@ input[type=text], select, textarea {
 
 @media (min-width: 1200px){     
 .four  { 
-  flex-basis: calc(25% - 30px);
+  flex-basis: calc(25% - );
 } 
 }     
 
@@ -2581,7 +2581,8 @@ text-align: center;
   display: block;
   background: #f6f6f6;
   padding: 40px 20px 37px;
-  text-align: center
+  text-align: center;
+  border-radius:8px;
 }
 
 .counter-box p {
@@ -2607,7 +2608,7 @@ text-align: center;
 }
 
 .counter-box.colored {
-  background: #3acf87
+  background: #ef5d16c9;
 }
 
 .counter-box.colored p,
