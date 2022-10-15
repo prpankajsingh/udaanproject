@@ -310,7 +310,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 10px 0;
 }
 
 hr {
@@ -2036,7 +2036,8 @@ section.wrapper, article.wrapper {
 }
 
   section.wrapper header, article.wrapper header {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
+    margin-top: 1em;
   }
 
     section.wrapper header h2, article.wrapper header h2 {
@@ -2562,3 +2563,55 @@ text-align: center;
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
  }
+
+
+
+ /* body {
+  background-color: transparent;
+  background-image: linear-gradient(100deg, #f26798 0%, #3023ae 100%);
+  text-align: center;
+  padding-top: 10%;
+}
+
+.container {
+  margin-top: 100px
+} */
+
+.counter-box {
+  display: block;
+  background: #f6f6f6;
+  padding: 40px 20px 37px;
+  text-align: center
+}
+
+.counter-box p {
+  margin: 5px 0 0;
+  padding: 0;
+  color: #909090;
+  font-size: 18px;
+  font-weight: 500
+}
+
+.counter-box i {
+  font-size: 60px;
+  margin: 0 0 15px;
+  color: #d2d2d2
+}
+
+.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #666;
+  line-height: 28px
+}
+
+.counter-box.colored {
+  background: #3acf87
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+  color: #fff
+}
