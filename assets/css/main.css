@@ -560,7 +560,7 @@ hr {
 .navbar-expand-md .navbar-nav .nav-link {
   font-family: 'Titillium Web', sans-serif;
   font-size: 17px;
-  color: #a0d468;
+  color: #ffe100;
   font-weight: 600;
   padding: 8px 10px;
   line-height: 40px;
@@ -2404,7 +2404,7 @@ input[type=text], select, textarea {
 
 @media (min-width: 1200px){     
 .four  { 
-  flex-basis: calc(25% - );
+  flex-basis: calc(25% );
 } 
 }     
 
@@ -2561,7 +2561,7 @@ text-align: center;
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; // remove the gap so it doesn't close
+    margin-top: 0; 
  }
 
 

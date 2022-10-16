@@ -11,7 +11,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <!-- Icon -->
-  <link rel="preload" as="font" rel="stylesheet" href="assets/fonts/line-icons.css">
+  <link as="font" rel="stylesheet" href="assets/fonts/line-icons.css">
   <!-- Slicknav -->
   <link rel="stylesheet" href="assets/css/slicknav.css">
   <!-- Owl carousel -->
@@ -37,7 +37,7 @@
     <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <!-- <a href="index.html" class="navbar-brand"><img loading="lazy" src="assets/img/logo.png" alt=""></a> -->
+        <!-- <a href="index.html" class="navbar-brand"><img  src="assets/img/logo.png" alt=""></a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="lni-menu"></i>
@@ -70,17 +70,19 @@
               </a>
             </li> -->
             
-            <li class="nav-item">
-               <div class="dropdown">
-               <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#" data-target="#navItemGame">Quick Links</a>
-                    <ul class="dropdown-menu" id="navItemGame">
-                         <li><a data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="ToogleNavigation" class="nav-link" href="instruction_guide.html">Installation Guide</a></li>
-                         <li><a class="nav-link" href="download_tool.html">Download tool</a>
-                              </li>
-                         <li><a class="nav-link" href="https://www.youtube.com/playlist?list=PLfL0bubCSMdzHx117x6c4mdi47ZjkTz7H" target="_blank">Tutorials</a></li>
-                    </ul>
-              </div>
-            </li>
+            
+            <!-- <h5 style="text-align:center;margin-top:10px;color:#166134">Upload file for translation <a style="color:#bd4d41" href='https://udaaniitb.aicte-india.org/udaan' target="_blank">Click here</a></h5>
+        <h5 style="text-align:center;color:#166134">Independent text translation <a style="color:#bd4d41" href='https://udaaniitb.aicte-india.org/udaan/translate/' target="_blank">Click here</a></h5> -->
+
+        <li class="nav-item">
+          <div class="dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#" data-target="#navItemGame">Live Translate</a>
+               <ul class="dropdown-menu" id="navItemGame">
+                    <li><a style="color:black" target="_blank" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="ToogleNavigation" class="nav-link" href="https://udaaniitb.aicte-india.org/udaan/translate">Sentence Translation</a></li>
+                    <li><a style="color:black" class="nav-link" href="https://udaaniitb.aicte-india.org/udaan/" target="_blank">File Translation</a></li>
+               </ul>
+         </div>
+       </li>
 
 		  
             <!-- <li class="nav-item">
@@ -103,8 +105,18 @@
                 Contact
               </a>
             </li>
-
-          </ul>
+            <li class="nav-item">
+              <div class="dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#" data-target="#navItemGame">Quick Links</a>
+                   <ul class="dropdown-menu" id="navItemGame">
+                        <li><a style="color:black" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="ToogleNavigation" class="nav-link" href="instruction_guide.html">Installation Guide</a></li>
+                        <li><a style="color:black" class="nav-link" href="download_tool.html">Download tool</a>
+                             </li>
+                        <li><a style="color:black" class="nav-link" href="https://www.youtube.com/playlist?list=PLfL0bubCSMdzHx117x6c4mdi47ZjkTz7H" target="_blank">Tutorials</a></li>
+                   </ul>
+             </div>
+           </li>
+            </ul>
         </div>
       </div>
     </nav>
@@ -121,7 +133,7 @@
               <section id="banner">
 		
 		<div>
-		<img loading="lazy" src="assets/img/udaan_project_logo_white_bg.png" alt="Project Udaan logo" width="100" height="100" style="border-radius: 50%;">
+		<img  src="assets/img/udaan_project_logo_white_bg.png" alt="Project Udaan logo" width="100" height="100" style="border-radius: 50%;">
 		</div>
                 
                 <h1 style="padding-bottom: 0px; margin: 0.15em; color:#ffffff">Project UDAAN</h1>
@@ -145,8 +157,7 @@
 
 
       <div class="inner"> 
-        <h5 style="text-align:center;margin-top:10px;color:#166134">Upload file for translation <a style="color:#bd4d41" href='https://udaaniitb.aicte-india.org/udaan' target="_blank">Click here</a></h5>
-        <h5 style="text-align:center;color:#166134">Independent text translation <a style="color:#bd4d41" href='https://udaaniitb.aicte-india.org/udaan/translate/' target="_blank">Click here</a></h5>
+        
         <header class="align-center">
           <h2 class="text-center">Our Vision</h2>
         </header>
@@ -188,6 +199,9 @@
 		  <h5>
 		    Tutorials <a href="https://www.youtube.com/playlist?list=PLfL0bubCSMdzHx117x6c4mdi47ZjkTz7H" target="_blank">Link</a>
 		  </h5>
+      <h5>
+		    Read <a href="https://arxiv.org/pdf/2203.01644" target="_blank">Paper</a>
+		  </h5>
 	    </p>
           </div>
 <!--           <div class="skills-section">
@@ -201,13 +215,13 @@
   </div>
 
   <div class="container">
-    <header id='stats' class="align-center">
+    <header id='users' class="align-center">
       <h2 class="text-center">Statistics</h2>
     </header>
     <div class="inner">
       <div class="row">
         <div class="four col-md-3">
-            <div class="counter-box colored"> <i class="fa fa-thumbs-o-up"></i> <span class="counter"> 11000</span>
+            <div class="counter-box colored"> <i class="fa fa-thumbs-o-up"></i> <span class="counter"> 4000</span>
                 <p>Pages Translated</p>
             </div>
         </div>
@@ -230,7 +244,7 @@
     </div>
 </div>
 <div class="inner">
-      <header id='users' class="align-center">
+      <header id='users1' class="align-center">
         <h2 class="text-center">Key Users</h2>
       </header>
 
@@ -275,6 +289,7 @@
                   <a href="http://bsmbharat.org/" target="_blank">
                   <img  height=50px src="assets/img/clients/bsm.png" > 
                   </a>
+                  Bharatiya Shikshan Mandal
               </div>
             </div>
           </div></div>
@@ -504,7 +519,7 @@
                                     
           <a target="_blank" href="https://www.cse.iitb.ac.in/~ganesh"><div class="e2-35 x-col gc_ai_app  one">
             <div class="e2-36 x-text align-center-icon">
-              <img loading="lazy" src="assets/img/GaneshRamakrishnan.jpeg" alt="Prof.Ganesh" class="custom_avatar">
+              <img  src="assets/img/GaneshRamakrishnan.jpeg" alt="Prof.Ganesh" class="custom_avatar">
               <h5>Prof. Ganesh Ramakrishnan</h4>
                 <div class="e2-36 x-text align-center-icon">
                   Professor, Department of Computer Science and Engineering, Indian Institute of Technology Bombay,
@@ -518,7 +533,7 @@
           &nbsp;&nbsp;&nbsp;
           <a target="_blank" href="#" data-toggle="modal" data-target="#basicModal"><div class="e2-37 x-col gc_ai_app  three"><!--https://in.linkedin.com/in/ganesh-arnaal-a29b22186--> 
             <div class="e2-38 x-text align-center-icon">
-              <img loading="lazy" src="assets/img/GaneshArnaal.jpeg" alt="GaneshArnaal" class="custom_avatar">
+              <img  src="assets/img/GaneshArnaal.jpeg" alt="GaneshArnaal" class="custom_avatar">
               <h5>Ganesh Arnaal</h5>
               <div class="e2-38 x-text align-center-icon" style="padding-top: 0px;">
                Linguistic expert and a Pioneer in Indian language computing
@@ -529,7 +544,7 @@
 		  &nbsp;&nbsp;&nbsp;
           <a target="_blank" href="https://www.linkedin.com/in/pankaj-singh-b000894a/"><div class="e2-37 x-col gc_ai_app  three">
             <div class="e2-38 x-text align-center-icon">
-              <img loading="lazy" src="assets/img/pankaj.singh.jpg" alt="PankajSingh" class="custom_avatar">
+              <img  src="assets/img/pankaj.singh.jpg" alt="PankajSingh" class="custom_avatar">
               <h5>Pankaj Singh</h5>
               <div class="e2-38 x-text align-center-icon" style="padding-top: 0px;">
 	       Applied AI researcher and
@@ -543,7 +558,7 @@
 		  
           <a target="_blank" href="https://www.cse.iitb.ac.in/~ayusham"><div class="e2-37 x-col gc_ai_app  three" style="margin-top:10px">
             <div class="e2-38 x-text align-center-icon">
-              <img loading="lazy" src="assets/img/AyushMaheshwari.jpeg" alt="Ayush Maheshwari" class="custom_avatar">
+              <img  src="assets/img/AyushMaheshwari.jpeg" alt="Ayush Maheshwari" class="custom_avatar">
               <h5>Ayush Maheshwari</h5>
               <div class="e2-38 x-text align-center-icon" style="padding-top: 0px;"><br>
 		      Ekal Fellow & PhD Student, CSE, IIT Bombay 
@@ -573,7 +588,7 @@
                 <a target="_blank" href="https://www.cse.iitb.ac.in/~piyusharma/" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/team/piyush_sharma.jpg" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/team/piyush_sharma.jpg" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Piyush Sharma</h5>
                       <p class="card-text">MTech, CSE</p>
                     </div>
@@ -585,7 +600,7 @@
                 <a target="_blank" href="https://www.cse.iitb.ac.in/~iishapandey/" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/team/isha_pandey.JPG" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/team/isha_pandey.JPG" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Isha Pandey</h5>
                       <p class="card-text">MTech, CSE</p>
                     </div>
@@ -597,7 +612,7 @@
                 <a target="_blank" href="https://www.linkedin.com/in/souvik-pal-75b1b1178/" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/team/souvik_pal.jpeg" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/team/souvik_pal.jpeg" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Souvik Pal</h5>
                       <p class="card-text">DD, CMINDS</p>
                     </div>
@@ -651,7 +666,7 @@
                 <a target="_blank" href="https://www.cse.iitb.ac.in/~kkbhatt/" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/team/krishnakant_bhatt.jpg" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/team/krishnakant_bhatt.jpg" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Krishnakant Bhatt</h5>
                       <p class="card-text">MS, CSE</p>
                     </div>
@@ -663,7 +678,7 @@
                 <a target="_blank" href="https://www.linkedin.com/in/ajay-r-376673132" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/team/ajay_ravindran.jpg" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/team/ajay_ravindran.jpg" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Ajay Ravindran</h5>
                       <p class="card-text">MTech, CSE</p>
                     </div>
@@ -689,7 +704,7 @@
                 <a href="https://www.linkedin.com/in/anuja-dumada-424790a2/" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/anuja.jpg" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/anuja.jpg" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Anuja Dumada</h5>
                     </div>
                   </div>
@@ -700,7 +715,7 @@
                 <a href="#">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/profile.png" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/profile.png" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Anjali Vijayvargiya</h5>
                       <p class="card-text">Intern, IIT Bombay</p>
                     </div>
@@ -713,7 +728,7 @@
                 <a href="https://www.linkedin.com/in/pranita-harpale-56965314b/" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/pranita.jpeg" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/pranita.jpeg" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Pranita Harpale</h5>
                       
                     </div>
@@ -741,7 +756,7 @@
                 <a href="http://www.linkedin.com/in/sanskar-sehgal" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/team/sanskar_sehgal.png" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/team/sanskar_sehgal.png" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Sanskar Sehgal</h5>
                       <p class="card-text">Intern, IIT Bombay</p>
                     </div>
@@ -753,7 +768,7 @@
                 <a href="#">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/profile.png" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/profile.png" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Anjali Vijayvargiya</h5>
                       <p class="card-text">Intern, IIT Bombay</p>
                     </div>
@@ -766,7 +781,7 @@
                 <a href="https://bit.ly/3z35NtP" target="_blank">
                   <div class="card" style="background-color: rgba(242,244,248,.92);">
                     <div class="card-body">
-                      <img loading="lazy" src="assets/img/team/yash_kadam.jpeg" alt="DP" class="custom_avatar">
+                      <img  src="assets/img/team/yash_kadam.jpeg" alt="DP" class="custom_avatar">
                       <h5 class="card-title">Yash Kadam</h5>
                       <p class="card-text">Intern, IIT Bombay</p>
                     </div>
@@ -880,7 +895,7 @@
           </div>
         </div>
         <!-- <div class="col-lg-6 col-md-12 col-xs-12 wow fadeInLeft"  data-wow-delay="0.3s">
-          <img class="img-fluid" src="assets/img/demo-to-donate.gif" loading="lazy" alt="">
+          <img class="img-fluid" src="assets/img/demo-to-donate.gif"  alt="">
         </div> -->
     </div>
   </section>
@@ -890,17 +905,18 @@
 
     <!-- Container Starts -->
     <div class="container">
-      <div class="section-header text-center">
-        <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Publications</h2>
-        <p>Publications related to the projects.
+      <div class="text-center">
+        <h2 class="wow fadeInDown" data-wow-delay="0.3s">Publications</h2>
+        <!-- <p>Publications related to the projects. -->
         </p>
       </div>
+      <h4 style="font-size:30px; margin-bottom:0px;" class="fadeInDown" >Translation and Post-Editing </h4>
 
       <!-- Portfolio Recent Projects -->
       <div class="row">
         <!-- <div class="row"> -->
             
-        <div class="paper-contianer">
+        <div class="paper-container">
           <div class="paper">
             <a class="paper-title" target="_blank"
               href="https://arxiv.org/pdf/2203.01644">
@@ -910,19 +926,8 @@
               Ayush Maheshwari, and others
             </p>
           </div>
-
-          <div class="paper">
-            <a class="paper-title" target="_blank"
-              href="https://arxiv.org/pdf/2108.00373">
-              SPEAR: Semi-supervised Data Programming in Python
-            </a>
-            <p class="paper-authors">
-              Guttu Sai Abhishek, and others
-            </p>
-            <p class="paper-conference">
-              EMNLP 2022.
-            </p>
-          </div>
+          
+          
 
           <div class="paper">
             <a class="paper-title" target="_blank"
@@ -951,43 +956,139 @@
           
           <div class="paper">
             <a class="paper-title" target="_blank"
-              href="https://www.cse.iitb.ac.in/~ganesh/papers/aaai2021.pdf">
-              GLISTER: Generalization based Data Subset Selection for Efficient and Robust Learning
+              href="https://arxiv.org/pdf/2108.00373">
+              SPEAR: Semi-supervised Data Programming in Python
             </a>
             <p class="paper-authors">
-              Krishnateja Killamsetty, and others
+              Guttu Sai Abhishek, and others
             </p>
             <p class="paper-conference">
-              AAAI 2021.
+              EMNLP Demonstrations, 2022.
             </p>
+          </div>
+          <div class="paper">
+            <a class="paper-title" target="_blank"
+              href="https://arxiv.org/pdf/2210.06996.pdf">
+              DICTDIS: Dictionary Constrained Disambiguation for Improved NMT
+            </a>
+            <p class="paper-authors">
+              Ayush Maheshwari, and others
+            </p>
+            <!-- <p class="paper-conference">
+              EMNLP 2022.
+            </p> -->
           </div>
           
           <div class="paper">
             <a class="paper-title" target="_blank"
-            href="https://arxiv.org/pdf/2101.10368.pdf">
-            Meta-Learning for Effective Multi-task and Multilingual Modelling
+            href="https://www.cse.iitb.ac.in/~ganesh/papers/acl2021c.pdf">
+            Rule Augmented Unsupervised Constituency Parsing
             </a>
             <p class="paper-authors">
-              Ishan Tarunesh, and others
+             Atul Sahay, and others
             </p>
             <p class="paper-conference">
-              EACL 2021
+              ACL, 2021
+            </p>
+          </div>
+          <div class="paper">
+            <a class="paper-title" target="_blank"
+            href="https://www.cse.iitb.ac.in/~ganesh/papers/aaai2020.pdf">
+            Data Programming using Continuous and Quality-Guided Labeling Function 
+            </a>
+            <p class="paper-authors">
+             Oishik Chatterjee, and others
+            </p>
+            <p class="paper-conference">
+              AAAI, 2020
             </p>
           </div>
 
           <div class="paper">
             <a class="paper-title" target="_blank"
-            href="https://www.isca-speech.org/archive/Interspeech_2020/pdfs/3157.pdf">
-            Caption Alignment for Low Resource Audio-Visual Data
-
+            href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16911/15686#:~:text=We%20describe%20MultiSynth%2C%20a%20framework,generalizes%20over%20all%20the%20examples.">
+            Synthesis of Programs from Multimodal Datasets
             </a>
             <p class="paper-authors">
-              Vighnesh Reddy Konda, and others
+              Shantanu Thakoor, and others
             </p>
             <p class="paper-conference">
-              Interspeech 2020
+              AAAI, 2018
             </p>
           </div>
+          
+          <h4 style="font-size:30px; margin-bottom:0px;margin-top:1em" class="fadeInDown" >Dictionary Organization and Constraint Induction </h4>
+         
+         
+          <div class="paper">
+            <a class="paper-title" target="_blank"
+              href="https://arxiv.org/pdf/2109.11410">
+              Learning to Robustly Aggregate Labeling Functions for Semi-supervised Data Programming
+         
+            </a>
+            <p class="paper-authors">
+              Ayush Maheshwari, and others
+            </p>
+            <p class="paper-conference">
+              ACL 2022
+
+            </p>  
+          </div>
+
+          <div class="paper">
+            <a class="paper-title" target="_blank"
+              href="https://arxiv.org/pdf/2101.04997">
+              Joint Learning of Hyperbolic Label Embeddings for Hierarchical Multi-label Classification
+            </a>
+            <p class="paper-authors">
+              Ayush Maheshwari, and others
+            </p>
+            <p class="paper-conference">
+              EACL 2021
+
+            </p>  
+          </div>
+          <div class="paper">
+            <a class="paper-title" target="_blank"
+              href="https://www.cse.iitb.ac.in/~ganesh/papers/pakdd16.pdf">
+              Building Compact Lexicons for Cross-Domain SMT by Mining Near-Optimal Pattern Sets
+            </a>
+            <p class="paper-authors">
+              Pankaj Singh, and others
+            </p>
+            <p class="paper-conference">
+              PAKDD 2016
+
+            </p>  
+          </div>
+          <div class="paper">
+            <a class="paper-title" target="_blank"
+              href="https://www.cse.iitb.ac.in/~ganesh/papers/emnlp12.pdf">
+              Towards Efficient Named-Entity Rule Induction for Customizability
+            </a>
+            <p class="paper-authors">
+              Ajay Nagesh, and others
+            </p>
+            <p class="paper-conference">
+              EMNLP 2012
+
+            </p>  
+          </div>
+          <div class="paper">
+            <a class="paper-title" target="_blank"
+              href="https://www.cse.iitb.ac.in/~ganesh/papers/icml11.pdf">
+              Efficient Rule Ensemble Learning using Hierarchical Kernels
+            </a>
+            <p class="paper-authors">
+              Pratik Jawanpuria, and others
+            </p>
+            <p class="paper-conference">
+              ICML 2011
+
+            </p>  
+          </div>
+          
+          <h4 style="font-size:30px; margin-bottom:0px;margin-top:1em" class="fadeInDown" >OCR </h4>
 
 
           <div class="paper">
@@ -1017,18 +1118,7 @@
             </p>
           </div>
 
-          <div class="paper">
-            <a class="paper-title" target="_blank"
-              href="https://www.cse.iitb.ac.in/~ganesh/papers/wacv2019b.pdf">
-              Learning From Less Data: Diversified Subset Selection and Active Learning in Image Classification Tasks
-            </a>
-            <p class="paper-authors">
-              Vishal Kaushal, and others
-            </p>
-            <p class="paper-conference">
-              WACV, 2019
-            </p>
-          </div>
+     
 
           <div class="paper">
             <a class="paper-title" target="_blank"
@@ -1056,31 +1146,8 @@
             </p>
           </div>
 
-          <div class="paper">
-            <a class="paper-title" target="_blank"
-            href="https://www.cse.iitb.ac.in/~pjyothi/files/IS18c.pdf">
-            Time Aggregation Operators for Multi-label Audio Event Detection
-            </a>
-            <p class="paper-authors">
-              Pankaj Joshi, and others
-            </p>
-            <p class="paper-conference">
-              Interspeech 2018
-            </p>
-          </div>
 
-          <div class="paper">
-            <a class="paper-title" target="_blank"
-            href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16911/15686#:~:text=We%20describe%20MultiSynth%2C%20a%20framework,generalizes%20over%20all%20the%20examples.">
-            Synthesis of Programs from Multimodal Datasets
-            </a>
-            <p class="paper-authors">
-              Shantanu Thakoor, and others
-            </p>
-            <p class="paper-conference">
-              AAAI, 2018
-            </p>
-          </div>
+     
 
           <div class="paper">
             <a class="paper-title" target="_blank"
