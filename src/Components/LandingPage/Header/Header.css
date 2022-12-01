@@ -1,0 +1,196 @@
+.LandingHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #011633;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  /* margin-top: 20px; */
+  /* padding: 0.5rem 1rem 0.5rem 1rem; */
+  z-index: 2;
+}
+
+.headerlogo {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.Junk2 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.Junk {
+  font-size: 15px;
+  font-style: italic;
+  color: #abb0b8;
+  margin: 0;
+}
+
+.LandingHeaderLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Copse;
+  gap: 2.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #f6faff;
+  padding-left: 2rem;
+}
+
+.headerlogotext {
+  margin: 0;
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #f6faff;
+}
+
+.LandingHeaderLeft > ul {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 1.5rem;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  /* line-height: 36px; */
+  color: #f3f3f3;
+}
+.LandingHeaderLeft > ul > li:hover {
+  color: #fb5517;
+}
+.LandingHeaderRight {
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.LandingHeaderRight .Dropdown-control {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-style: none;
+  color: #ffffff;
+  cursor: default;
+  outline: none;
+  padding: 8px 25px 8px 10px;
+  transition: all 200ms ease;
+}
+
+.LandingHeaderRightLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #f3f3f3;
+}
+.LandingHeaderRightLeft > span {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.LandingHeaderRightLeft > p:hover {
+  cursor: pointer;
+  color: #fb5517;
+}
+
+.LandingHeaderRight button {
+  cursor: pointer;
+  background: #fb5517;
+  border-radius: 24.3024px;
+  border-style: none;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  min-width: 100px;
+  line-height: 35px;
+  color: #e7f1ff;
+}
+
+.LandingHeaderRight > button:hover {
+  background: linear-gradient(94.6deg, #fb5517 36.28%, #ed1e1e 113.49%);
+  border-radius: 32.5494px;
+}
+
+.LandingHeader .css-1s2u09g-control {
+  background-color: transparent;
+  border: none;
+}
+
+.LandingHeader .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.LandingHeader .css-6j8wv5-Input {
+  color: #e7f1ff;
+}
+.LandingHeader .css-14el2xx-placeholder {
+  color: #e7f1ff;
+}
+
+.LandingHeader .css-qc6sy-singleValue {
+  color: #e7f1ff;
+}
+.LandingHeader .css-1pahdxg-control {
+  background-color: transparent;
+  color: #e7f1ff;
+}
+
+.LandingHeader .css-2613-qy-menu {
+  color: #011633;
+  border-bottom: 1px solid grey;
+  background-color: blue;
+}
+
+.LandingHeader .css-1jwi8f4-singleValue {
+  color: #e7f1ff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 12px;
+  z-index: 1;
+  border-radius: 2%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content > p {
+  color: black;
+}
+
+.dropdown-content > p:hover {
+  color: blue;
+}
+
+#mobile-menu-btn {
+  display: none;
+}

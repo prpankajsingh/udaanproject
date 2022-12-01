@@ -1,0 +1,190 @@
+.donation {
+  display: flex;
+  flex-direction: column;
+}
+.donation_buttons {
+  display: flex;
+  cursor: pointer;
+}
+.donation_button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 80px;
+  background: #02306f;
+  border-radius: 29px 25px 0px 0px;
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40.8696px;
+  line-height: 63px;
+  /* identical to box height */
+  color: #fb5517;
+}
+.donation .active {
+  background: #011633;
+  border-radius: 29px 29px 0px 0px;
+}
+.donation_button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 80px;
+  background: #02306f;
+  border-radius: 29px 25px 0px 0px;
+}
+
+.donationIndian,
+.donationNri {
+  /* display: flex; */
+  padding: 0% 5% 0% 5%;
+  background: #011633;
+  box-shadow: 9.91933px 12.8951px 247.983px rgba(0, 0, 0, 0.1);
+}
+
+.donation_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.donation_title {
+  /* margin-top: -1%; */
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54.4757px;
+  line-height: 80px;
+  color: #fb5517;
+}
+
+.donation_left {
+  padding-left: 4%;
+  margin-top: -2%;
+  width: 50%;
+}
+
+.donation_subtitle {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.802px;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: justify;
+}
+.donation_description {
+  margin-top: -2%;
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34.637px;
+  /* line-height: 55px; */
+  text-align: justify;
+  color: #fb5517;
+}
+
+.donation_step_content {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25.7499px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.donation_steps ul {
+  list-style: none;
+}
+
+.donation_step_footer {
+  margin-left: 5%;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.8709px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.donation_steps ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #fb5517; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.donation_button {
+  margin-top: 5%;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.7499px;
+  line-height: 36px;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  background: #fb5517;
+  border-radius: 39.1814px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.donation_button:hover {
+  background: linear-gradient(91.8deg, #fb5517 -10.9%, #d40a0a 117.11%);
+  border-radius: 32.5494px;
+}
+
+.donation_button_footer {
+  /* margin-left: 5%; */
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.8709px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.donation_right > img {
+  height: 400px;
+  width: 600px;
+}
+
+.donation_tax {
+  color: #8b8686;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .donation_button1,
+  .donation_button2 {
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+  }
+  .donation_title {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .donation_container {
+    flex-direction: column-reverse;
+  }
+  .donation_right > img {
+    height: 200px;
+    width: 90vw;
+  }
+  .donation_left {
+    width: 100%;
+  }
+  .donation_step_content {
+    font-size: 20px;
+  }
+  .donation_description {
+    font-size: 25px;
+  }
+  .donation_button {
+    font-size: 20px;
+    width: 150px;
+  }
+}

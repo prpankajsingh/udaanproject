@@ -1,0 +1,91 @@
+.headerMain {
+  background: #011633;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  position: fixed;
+  min-width: 100vw;
+  z-index: 2;
+}
+.headerMainRight {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.7499px;
+  /* identical to box height */
+  color: #e7f1ff;
+}
+.headerMainRight > p {
+  cursor: pointer;
+}
+.headerMainLeft {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.headerMain svg {
+  height: 30px;
+}
+
+.headerMainLeft {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42.633px;
+  color: #e7f1ff;
+}
+
+.headerMain .css-1s2u09g-control {
+  background-color: transparent;
+  border: none;
+}
+
+.headerMain .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.headerMain .css-6j8wv5-Input {
+  color: #e7f1ff;
+}
+.headerMain .css-14el2xx-placeholder {
+  color: #e7f1ff;
+}
+
+.headerMain .css-qc6sy-singleValue {
+  color: #e7f1ff;
+}
+.headerMain .css-1pahdxg-control {
+  background-color: transparent;
+  color: #e7f1ff;
+}
+
+.headerMain .css-2613-qy-menu {
+  color: #011633;
+  border-bottom: 1px solid grey;
+  background-color: blue;
+}
+
+.headerMain .css-1jwi8f4-singleValue {
+  color: #e7f1ff;
+}
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .headerMainLeft {
+    margin-left: 5px;
+    font-size: 20px;
+    gap: 0;
+  }
+  .headerMain .Junk {
+    font-size: 10px;
+  }
+  .headerMainRight {
+    gap: 2px;
+    font-size: 15px;
+  }
+}

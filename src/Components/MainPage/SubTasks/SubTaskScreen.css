@@ -1,0 +1,36 @@
+.SubTaskTopButtons {
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+}
+
+.SubTaskTopButtons .active {
+  color: #fb5517;
+}
+.Subtask_button1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25.89px;
+  text-align: center;
+  cursor: pointer;
+  color: #c4c4c4;
+}
+
+.barCompleted {
+  background-color: #fb5517;
+}
+.container {
+  border-radius: 10px;
+  background-color: #e4e4e4;
+}
+.wrapper {
+  border-radius: 10px;
+}
+.subprojects_sec2 {
+  display: flex;
+  flex-direction: column;
+}
+.subprojects_sec2_left {
+  width: 10%;
+}

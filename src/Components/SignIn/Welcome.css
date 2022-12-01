@@ -1,0 +1,30 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.welcome p {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54.4757px;
+  line-height: 40px;
+  text-align: center;
+  color: #fb5517;
+}
+.welcome button {
+  background: #fb5517;
+  border-radius: 35.5px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25.89px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  width: 300px;
+  height: 50px;
+  border-style: none;
+}

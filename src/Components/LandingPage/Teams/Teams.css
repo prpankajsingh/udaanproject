@@ -1,0 +1,233 @@
+.teams {
+  padding: 5%;
+  margin-top: -100px;
+}
+.team_title {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54.4757px;
+  line-height: 80px;
+  color: #fb5517;
+}
+
+.technical_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.technical_title,
+.students_title,
+.intern_title,
+.publisher_title {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40.637px;
+  line-height: 55px;
+  color: #011633;
+}
+
+.technical_grid {
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.technical_grid_card {
+  background: #f3f5f9;
+  border: 0.991933px solid #d7d7d7;
+  box-sizing: border-box;
+  box-shadow: 3.96773px 3.96773px 39.6773px rgba(0, 0, 0, 0.1);
+  border-radius: 4.95967px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  padding: 5%;
+}
+
+.technical_grid > a,
+.students_grid > a,
+.intern_grid > a,
+.publisher_grid > a {
+  text-decoration: none;
+}
+
+.technical_name,
+.students_name,
+.intern_name,
+.publisher_name {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.5274px;
+  line-height: 29px;
+  color: #000000;
+  text-align: justify;
+}
+
+.technical_description,
+.students_description,
+.intern_description,
+.publisher_description {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.5274px;
+  line-height: 28px;
+  text-align: justify;
+  text-align: center;
+  color: #000000;
+}
+.students_container,
+.intern_container,
+.publisher_container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.students_grid {
+  display: grid;
+  grid-gap: 3%;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.students_grid_card {
+  background: #f3f5f9;
+  border: 0.991933px solid #d7d7d7;
+  box-sizing: border-box;
+  box-shadow: 3.96773px 3.96773px 39.6773px rgba(0, 0, 0, 0.1);
+  border-radius: 4.95967px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.students_grid_card > img {
+  width: 100px;
+  height: 100px;
+}
+
+.intern_grid {
+  display: grid;
+  grid-gap: 3%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.intern_grid_card {
+  background: #f3f5f9;
+  border: 0.991933px solid #d7d7d7;
+  box-sizing: border-box;
+  box-shadow: 3.96773px 3.96773px 39.6773px rgba(0, 0, 0, 0.1);
+  border-radius: 4.95967px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.publisher_grid {
+  display: grid;
+  grid-gap: 3%;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+.publisher_grid_card {
+  background: #f3f5f9;
+  border: 0.991933px solid #d7d7d7;
+  box-sizing: border-box;
+  box-shadow: 3.96773px 3.96773px 39.6773px rgba(0, 0, 0, 0.1);
+  border-radius: 4.95967px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.publisher_grid_card > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 123px;
+  height: 123px; */
+  background-color: red;
+  border-radius: 50%;
+}
+
+.publisher_grid_card > div > img {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .technical_grid_card,
+  .students_grid_card,
+  .intern_grid_card,
+  .publisher_grid_card {
+    width: 100%;
+    height: 300px;
+  }
+
+  .teams {
+    padding: 2%;
+    margin-bottom: 30px;
+  }
+  .teams img {
+    width: 100px;
+    height: 100px;
+  }
+  .teams .swiper-button-prev,
+  .swiper-button-next {
+    color: #fb5517;
+  }
+  .technical_name,
+  .students_name,
+  .intern_name,
+  .publisher_name {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: normal;
+  }
+  .technical_description,
+  .students_description,
+  .intern_description,
+  .publisher_description {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .teams .swiper-container {
+    width: 100vw;
+  }
+  .teams a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+.teams_swiper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team_intern6 {
+  height: 123px;
+  width: 123px;
+}

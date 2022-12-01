@@ -1,0 +1,143 @@
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  color: #5385c1;
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.publications_title {
+  margin-top: 8%;
+  margin-bottom: 0%;
+}
+
+.paper {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.paper-title {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.paper-container {
+  width: 82%;
+}
+
+.publications {
+  padding: 1% 5%;
+}
+
+.publications_title {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54.4757px;
+  line-height: 80px;
+  /* identical to box height */
+  color: #fb5517;
+}
+
+/* .publications_slider {
+  margin-left: 20%;
+  margin-right: 40%;
+  padding: 2%;
+  width: 100%;
+  height: 400px;
+  background: #f3f5f9;
+  border: 0.991933px solid #d2d2d2;
+  box-sizing: border-box;
+  box-shadow: 3.96773px 3.96773px 29.758px rgba(0, 0, 0, 0.1);
+}
+
+.publications .swiper-button-prev,
+.publications .swiper-button-next {
+  color: black;
+}
+
+.publications_name {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.5274px;
+  text-align: justify;
+  line-height: 29px;
+  color: #fb5517;
+}
+
+.publications_subtitle {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.5274px;
+  line-height: 28px;
+  text-align: justify;
+  color: #011633;
+}
+
+.publications_description {
+  font-family: Work Sans;
+  font-style: normal;
+  text-align: justify;
+  font-weight: normal;
+  font-size: 20.5274px;
+  line-height: 28px;
+  color: #011633;
+} */
+
+/* .publications .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fb5517;
+  box-sizing: border-box;
+}
+
+.publications .swiper-pagination-bullet-active {
+  background: #fb5517;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .publications_slider {
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+  }
+
+  .publications_name {
+    font-size: 15px;
+  }
+
+  .publications_subtitle {
+    font-size: 10px;
+  }
+
+  .publications_description {
+    font-size: 10px;
+  }
+} */

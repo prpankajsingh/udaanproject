@@ -1,0 +1,87 @@
+.signup_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: #011633;
+  height: 90px;
+}
+.signup_header_left {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  /* identical to box height */
+  color: #f6faff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+}
+.signup_header_right {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.7499px;
+  line-height: 36px;
+  color: #f3f3f3;
+}
+.signup_header .Dropdown-control {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-style: none;
+  color: #ffffff;
+  cursor: default;
+  outline: none;
+  padding: 8px 25px 8px 10px;
+  transition: all 200ms ease;
+}
+.signup_header .css-1s2u09g-control {
+  background-color: transparent;
+  border: none;
+}
+
+.signup_header .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.signup_header .css-6j8wv5-Input {
+  color: #e7f1ff;
+}
+.signup_header .css-14el2xx-placeholder {
+  color: #e7f1ff;
+}
+
+.signup_header .css-qc6sy-singleValue {
+  color: #e7f1ff;
+}
+.signup_header .css-1pahdxg-control {
+  background-color: transparent;
+  color: #e7f1ff;
+}
+
+.signup_header .css-2613-qy-menu {
+  color: #011633;
+  border-bottom: 1px solid grey;
+  background-color: blue;
+}
+
+.signup_header .css-1jwi8f4-singleValue {
+  color: #e7f1ff;
+}
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .headerlogotext {
+    font-size: 20px !important;
+  }
+  .signup_header .Junk {
+    font-size: 12px;
+  }
+  .signup_header .css-14el2xx-placeholder {
+    font-size: 15px;
+  }
+}

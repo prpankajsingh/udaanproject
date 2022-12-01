@@ -1,0 +1,8 @@
+.dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(96, 107, 114);
+  min-height: 80vh;
+  font-size: 40px;
+}

@@ -1,0 +1,103 @@
+.WhatTheySay {
+  padding: 1% 5%;
+  background: #011633;
+}
+.whattheysay_title {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45.4757px;
+  line-height: 80px;
+  color: #fb5517;
+}
+
+.whattheysay_slider {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 5px solid #fb5517;
+  box-sizing: border-box;
+  box-shadow: 24px 25px 40px rgba(0, 0, 0, 0.25);
+  justify-content: space-around;
+  padding: 2%;
+  gap: 30px;
+  margin-bottom: 50px;
+  height: 500px;
+}
+
+.whattheysay_item_title {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35.0381px;
+  line-height: 52px;
+  text-align: justify;
+  color: #fb5517;
+  margin: 0;
+}
+.whattheysay_subtitle {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  text-align: justify;
+  font-size: 32.7536px;
+  margin: 0;
+  color: #000000;
+}
+
+.whattheysay_description {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.7499px;
+  text-align: justify;
+  line-height: 36px;
+  color: #000000;
+}
+.whattheysay_slider_left > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.WhatTheySay .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fb5517;
+  box-sizing: border-box;
+}
+.WhatTheySay .swiper-pagination-bullet-active {
+  background: #fb5517;
+}
+.WhatTheySay .swiper-button-prev,
+.WhatTheySay .swiper-button-next {
+  color: #011633;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .whattheysay_title {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .whattheysay_item_title {
+    line-height: normal;
+    font-size: 20px;
+  }
+  .whattheysay_subtitle {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .whattheysay_description {
+    font-size: 10px;
+    line-height: normal;
+  }
+  .whattheysay_slider_left > img {
+    width: 100px;
+    height: 100px;
+  }
+  .whattheysay_slider {
+    padding: 5%;
+    gap: 5%;
+    flex-direction: column;
+    height: 350px;
+  }
+}

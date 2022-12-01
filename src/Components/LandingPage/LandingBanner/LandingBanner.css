@@ -1,0 +1,145 @@
+.landingbanner {
+  /* min-height: 100vh; */
+  background-color: #011633;
+  background-image: url("../../../Images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position-y: -20px;
+  /* margin-top: -20px; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  flex-direction: column;
+}
+.banner_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner_heading {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: clamp(90px, 50%, 100px);
+  /* line-height: 141px; */
+  color: #f6faff;
+  text-align: justify;
+}
+.banner_subtitle {
+  margin-top: -90px;
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 51.283px;
+  line-height: 76px;
+  color: #f6faff;
+  text-align: justify;
+}
+.banner_subtitle2 {
+  display: flex;
+  gap: 5px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25.6805px;
+  line-height: 26px;
+  color: #e6edf8;
+  margin-top: -60px;
+  text-align: justify;
+}
+.banner_orange {
+  color: #fb5517;
+}
+
+.banner_description {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28.0694px;
+  width: 75%;
+  word-wrap: break-word;
+  word-break: break-word;
+  line-height: 45px;
+  text-align: justify;
+  color: #e6edf8;
+  margin-top: -5px;
+}
+
+.buttoncontainer {
+  display: flex;
+  gap: 40px;
+}
+.banner_button1 {
+  cursor: pointer;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29.8564px;
+  line-height: 47px;
+  color: #e7f1ff;
+  background: #fb5517;
+  border-radius: 32.5494px;
+  width: 250px;
+  border-style: none;
+}
+.banner_button2 {
+  cursor: pointer;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29.8564px;
+  line-height: 47px;
+  color: #e7f1ff;
+  background-color: transparent;
+  border-radius: 32.5494px;
+  width: 250px;
+  border: 2.53631px solid #fb5517;
+  box-sizing: border-box;
+  border-radius: 32.5494px;
+}
+
+.buttoncontainer > button:hover {
+  background: linear-gradient(94.6deg, #fb5517 36.28%, #ed1e1e 113.49%);
+  border-radius: 32.5494px;
+}
+
+.landingbanner > svg {
+  margin-top: 40px;
+  margin-bottom: 15vh;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .banner_heading {
+    font-size: 38.0006px;
+  }
+  .banner_box {
+    margin-top: 30px;
+  }
+  .banner_subtitle {
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 0px;
+  }
+  .banner_subtitle2 {
+    font-size: 8px;
+    margin-top: 0;
+    line-height: 0;
+  }
+  .banner_description {
+    width: inherit;
+    padding: 5%;
+  }
+  .buttoncontainer {
+    gap: 20px;
+  }
+  .banner_button1,
+  .banner_button2 {
+    width: 150px;
+    font-size: 20px;
+  }
+}

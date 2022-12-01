@@ -1,0 +1,119 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  background: #ffffff;
+  /* margin-top: -50px; */
+}
+.about_title {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64.4757px;
+  line-height: 80px;
+  color: #fb5517;
+}
+
+.about_para1 {
+  display: flex;
+  flex-direction: column;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25.7499px;
+  /* line-height: 40px; */
+  color: #000000;
+  text-align: justify;
+}
+
+.about_description2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25.7499px;
+  /* line-height: 40px; */
+  text-align: justify;
+  color: #fb5517;
+}
+
+.about_para2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25.7499px;
+  line-height: 132%;
+  text-align: justify;
+  color: #000000;
+}
+
+.about_cardsbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  width: 350px;
+  height: 250px;
+  background: #011633;
+  box-shadow: 9.91933px 10.9113px 39.6773px rgba(0, 0, 0, 0.15);
+  border-radius: 4.95967px;
+  padding: 50px;
+}
+
+.about_card_title {
+  /* margin-top: -5px; */
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40.4757px;
+  /* line-height: 80px; */
+  color: #fb5517;
+}
+.about_card_description {
+  margin-top: -5px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.7499px;
+  line-height: 132%;
+  text-align: center;
+  letter-spacing: 0.015em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .about_title {
+    line-height: normal;
+    font-size: 44px;
+  }
+  .about_para1,
+  .about_para2,
+  .about_description2 {
+    font-size: 20px;
+  }
+  .about_cardsbox {
+    margin-top: 0px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cards {
+    width: 200px;
+    height: 180px;
+    padding: 5%;
+  }
+  .about_card_title {
+    font-size: 20px;
+  }
+  .about_card_description {
+    font-size: 15px;
+  }
+}

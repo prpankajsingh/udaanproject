@@ -1,0 +1,45 @@
+.github {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.github svg {
+  cursor: pointer;
+}
+.github_heading {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30.89px;
+  text-align: center;
+  color: #fb5517;
+  margin: 0;
+}
+.github_subheading1,
+.github_subheading2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #797979;
+  margin: 0;
+}
+.github_subheading3 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #fb5517;
+  margin: 0;
+}
+.github span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

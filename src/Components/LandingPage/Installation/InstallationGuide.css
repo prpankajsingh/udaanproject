@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+    margin: none;
+}
+
+.box1_container {
+    display: inline-block;
+}
+
+.box1 {
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(173, 233, 213);
+    height: 150px;
+    margin: 10px 5vw 0 5vw;
+    border-radius: 20px;
+    background-image: url("https://raw.githubusercontent.com/prpankajsingh/udaanproject/main/assets/img/windows.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(173, 233, 213);
+    height: 150px;
+    margin: 10px 5vw 0 5vw;
+    border-radius: 20px;
+    background-image: url("https://raw.githubusercontent.com/prpankajsingh/udaanproject/main/assets/img/ubuntu.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box1_container .box1:hover {}
+
+@media screen and (max-width: 550px) {
+    .box1 {
+        margin: 20px 5vw;
+    }
+
+    .box2 {
+        margin: 20px 5vw;
+    }
+}
+
+h4 {
+    font-size: 38px;
+    margin-top: 0%;
+    padding-top: 2%;
+}
+
+.landingbanner_div {
+    padding-bottom: 10%;
+}

@@ -1,0 +1,87 @@
+.download {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  grid-template-columns: repeat(3, 1fr);
+  color: black;
+  padding-top: 2%;
+  padding-left: 2%;
+  grid-gap: 20px;
+}
+.downloadgrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fb5517;
+  height: 150px;
+  gap: 10px;
+  width: 400px;
+}
+.downloadgrid1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fb5517;
+  height: 150px;
+  width: 400px;
+  gap: 5px;
+}
+.downloadgridlatest {
+  color: #222324;
+  font-size: 20px;
+  margin: 0;
+}
+.downloadgridversion {
+  color: #011633;
+  font-size: 25px;
+  margin: 0;
+}
+.download button {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 67px;
+  background-color: #fb5517;
+  border-style: none;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #e7f1ff;
+  cursor: pointer;
+}
+
+.download button:hover {
+  background-color: #ffff;
+  border: 2px solid #fb5517;
+  color: #fb5517;
+}
+
+.downloadgridbuttonbox {
+  display: flex;
+  gap: 2%;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .download {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+  }
+  .downloadgrid,
+  .downloadgrid1 {
+    margin-top: 10%;
+    width: 200px;
+    height: 150px;
+  }
+  .downloadgridversion {
+    font-size: 20px;
+  }
+  .download button {
+    width: 100px;
+    font-size: 15px;
+  }
+}

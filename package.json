@@ -1,0 +1,75 @@
+{
+  "homepage":"udaanproject.org",
+  "name": "udaan",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/core": "^5.0.0-alpha.54",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.2.1",
+    "@ramonak/react-progress-bar": "^4.2.0",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "firebase": "^8.1.1",
+    "firebase-tools": "^9.23.0",
+    "i18next": "^21.5.3",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "i18next-http-backend": "^2.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "jquery": "^3.6.1",
+    "node-sass": "^8.0.0",
+    "react": "^17.0.2",
+    "react-date-picker": "^8.3.6",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^17.0.2",
+    "react-drag-drop-files": "^2.2.2",
+    "react-dropdown": "^1.9.2",
+    "react-hook-form": "^7.20.5",
+    "react-i18next": "^11.14.3",
+    "react-media": "^1.10.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.4",
+    "react-select": "^5.2.1",
+    "react-toastify": "^8.1.0",
+    "save": "^2.4.0",
+    "standard": "^17.0.0",
+    "swiper": "^6.8.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

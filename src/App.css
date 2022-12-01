@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Copse&family=Poppins&family=Work+Sans&display=swap");
+
+.App {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-size: 62.5%; */
+  margin: 0;
+  padding: 0;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}

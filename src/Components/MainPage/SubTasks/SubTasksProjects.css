@@ -1,0 +1,40 @@
+.subtask_projects {
+  background: #f3f5f9;
+  box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  margin: 10px 30px;
+}
+.subprojects_sec1 {
+  display: flex;
+  justify-content: space-between;
+}
+.subprojects_sec1 svg {
+  width: 50%;
+}
+.subprojects_sec1left {
+  width: 80%;
+  padding: 15px;
+}
+.subprojects_sec1left_heading {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: #011633;
+  margin: 0;
+}
+.subprojects_sec1left_subheading {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #011633;
+  margin: 0;
+}
+.subprojects_sec1left_subheading2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #797979;
+}

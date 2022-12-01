@@ -1,0 +1,142 @@
+.mobile_header {
+  width: 100%;
+  z-index: 10;
+  height: 4.4em;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  background: #011633;
+  background-image: initial;
+  justify-content: space-between;
+  background-color: rgb(1, 18, 41);
+}
+
+.headerlogomobiletext {
+  font-family: Copse;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.0192px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #f6faff;
+  margin: 0;
+}
+
+.mobile_header .headerlogo {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.mobile_header .Junk {
+  font-size: 8px;
+}
+
+.mobile_header_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mobile_header_box>span {
+  color: #f3f3f3;
+}
+
+.mobile_header_box>p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.0134px;
+  line-height: 16px;
+
+  color: #f3f3f3;
+}
+
+.mobile_header .css-1s2u09g-control {
+  background-color: transparent;
+  border: none;
+}
+
+.mobile_header .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.mobile_header .css-6j8wv5-Input {
+  color: #e7f1ff;
+}
+
+.mobile_header .css-14el2xx-placeholder {
+  color: #e7f1ff;
+}
+
+.mobile_header .css-qc6sy-singleValue {
+  color: #e7f1ff;
+}
+
+.mobile_header .css-1pahdxg-control {
+  background-color: transparent;
+  color: #e7f1ff;
+}
+
+.mobile_header .css-2613-qy-menu {
+  color: #011633;
+  border-bottom: 1px solid grey;
+  background-color: blue;
+}
+
+.mobile_header .css-1jwi8f4-singleValue {
+  color: #e7f1ff;
+}
+
+#mobile-menu-btn {
+  color: white;
+  display: block;
+  font-size: 1.5em;
+}
+
+.mobile-menu-btn-div {
+  margin-right: 5%;
+}
+
+.ul_div {
+  top: 7.4%;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  text-align: center;
+  background: black;
+}
+
+.ul_div > ul {
+  list-style: none;
+  padding: 0%;
+  color: white;
+}
+
+.ul_div > ul > li {
+  padding: 2% 5%;
+  font-weight: 600;
+}
+
+.ul_div > ul > li p {
+  margin: 2%;
+}
+
+@media (max-width: 600px) {
+  .dropdown-content {
+    right: 0%;
+  }
+
+  .dropdown-content p {
+    text-align: left;
+  }
+
+  .LandingHeaderRight {
+    display: block;
+    padding: 0%;
+  }
+  
+  .banner_heading {
+    margin-top: 15%;
+  }
+}
